@@ -2,11 +2,13 @@
     background-color: #111827;
     padding: 10%;
     color:antiquewhite;
+    align-items: center;
 }
 .desc{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .greeting{
     color: #EAB308;
@@ -30,7 +32,7 @@
     font-size: 16px;
     line-height: 27px;
 }
-@media (max-width: 1000px){
+@media (max-width: 860px){
     .desc{
         flex-direction: column;
     }
