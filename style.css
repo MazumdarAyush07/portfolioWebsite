@@ -45,4 +45,7 @@
     .desc{
         flex-direction: column;
     }
+    .hero{
+        padding-bottom: 50%;
+    }
 }
