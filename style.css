@@ -10,6 +10,15 @@
     align-items: center;
     justify-content: center;
 }
+.head{
+    text-align: center;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 2%;
+}
 .greeting{
     color: #EAB308;
     font-family: 'Lexend Deca';
@@ -46,6 +55,6 @@
         flex-direction: column;
     }
     .hero{
-        padding-bottom: 50%;
+        padding-bottom: 30%;
     }
 }
