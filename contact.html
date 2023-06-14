@@ -85,43 +85,40 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid hero">
-        <div class="container-fluid head">Positions of Responsibility</div>
+      <div class="container-fluid contact-page">
+        <div class="container-fluid head">Contact Me</div>
         <div class="container-fluid desc">
-          <div class="card" style="width: 18rem; height: 28rem;">
-            <img src="./Assets/MUN.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;">Academic Mentor</h5>
-              <p class="card-text">UEM Model United Nations Student Chapter</p>
-              <p class="card-text" style="font-style: italic;">Feb 2022 - Present</p>
-            </div>
+          <div class="container-fluid">
+            <div class="container-fluid contact-details">Address: Kolkata, West Bengal, India</div>
+            <div class="container-fluid contact-details">Mobile: 8420833011</div>
+            <div class="container-fluid contact-details">Email: mazumdarayush.2002@gmail.com</div>
           </div>
-          <div class="card" style="width: 18rem; height: 28rem;">
-            <img src="/Assets/Eutopia.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;">Technical Lead</h5>
-              <p class="card-text">Eutopia - The Literature Carnival of UEMK</p>
-              <p class="card-text" style="font-style: italic;">Nov 2022 - Present</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem; height: 28rem;">
-            <img src="/Assets/Rota.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;">Vice-President</h5>
-              <p class="card-text">The Rotaract Club of Calcutta-Yuva</p>
-              <p class="card-text" style="font-style: italic;">Feb 2023 - Present</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem; height: 28rem;">
-            <img src="/Assets/Voices.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;">Vice-President</h5>
-              <p class="card-text">VOICES - The Literature Club of UEM Kolkata</p>
-              <p class="card-text" style="font-style: italic;">June 2023 - Present</p>
-            </div>
+          <div class="container-fluid">
+            <form name="submit-to-google-sheet" id="myForm">
+              <div class="mb-3">
+                <label for="email" class="form-label contact-details">Email address</label>
+                <input type="email" name ="Email"class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="col-md-3">
+                <label for="typeofquery" class="form-label">About</label>
+                <select name="Type"class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose</option>
+                  <option>Blogs</option>
+                  <option>Pages</option>
+                  <option>Reaching Out</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label contact-details">Message</label>
+                <textarea name="Message"class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Enter Your Message Here"></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning" name="submit" onclick="confirmation()">Submit</button>
+            </form>
           </div>
         </div>
       </div>
+      <script src="./form.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

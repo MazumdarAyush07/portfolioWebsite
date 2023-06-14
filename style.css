@@ -11,6 +11,7 @@
     justify-content: center;
 }
 .head{
+    color: #EAB308;
     text-align: center;
     font-family: 'Lexend Deca';
     font-style: normal;
@@ -41,6 +42,20 @@
     font-size: 16px;
     line-height: 27px;
 }
+.contact-page{
+    background-color: #111827;
+    padding: 6.75%;
+    color:antiquewhite;
+    align-items: center;
+}
+.contact-details{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 50px;
+}
+
 .card{
     margin: 7px;
 }
@@ -55,6 +70,9 @@
         flex-direction: column;
     }
     .hero{
+        padding-bottom: 30%;
+    }
+    .contact-page{
         padding-bottom: 30%;
     }
 }
