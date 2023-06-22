@@ -72,11 +72,20 @@
 .blog-item{
     background-color: #111827;
 }
+.blog-hero{
+    background-color: #111827;
+    padding: 5%;
+    color:antiquewhite;
+    align-items: center;
+}
 @media (max-width: 860px){
     .desc{
         flex-direction: column;
     }
     .hero{
+        padding-bottom: 30%;
+    }
+    .blog-hero{
         padding-bottom: 30%;
     }
     .contact-page{
